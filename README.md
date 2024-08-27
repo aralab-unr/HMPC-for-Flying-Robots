@@ -11,6 +11,8 @@ In order to use this package, the following components are required:
 - Gazebo 11
 - Casadi ([https://web.casadi.org/](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP))
 
+Following these instructions to install the package:
+
 ```shell
 # Step 1: Clone this repo into your workspace
 cd ~/catkin_ws/src
