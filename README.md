@@ -8,8 +8,8 @@ In order to use this package, the following components are required:
 
 - Ubuntu 20.04
 - ROS Noetic/ C++
-- Gazebo 11
-- Casadi ([https://web.casadi.org/](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP))
+- Gazebo 11 (https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros)
+- Casadi (https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP)
 
 Following these instructions to install the package:
 
@@ -18,10 +18,12 @@ Following these instructions to install the package:
 mkdir -p ~/dev_ws/src
 $ cd ~/dev_ws/
 $ catkin_make
+$ echo "source /dev_ws/devel/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
 
 # Step 2: Clone this repo into your workspace
 cd ~/dev_ws
-git clone --recursive https://github.com/aralab-unr/Custom-controller-for-the-cube-drone.git
+git clone --recursive https://github.com/aralab-unr/Hierarchical-Model-Predictice-Control-for-Flying-Robots.git
 
 # Step 3: Source the environment variables
 source devel/setup.bash
