@@ -22,9 +22,10 @@ $ echo "source /dev_ws/devel/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 
 # Step 2: Clone this repo into your workspace
-$ cd ~/dev_ws
+$ cd ~/dev_ws/src
 $ git clone --recursive https://github.com/aralab-unr/Hierarchical-Model-Predictice-Control-for-Flying-Robots.git
 
 # Step 3: Build the catkin workspace for this package
+$ cd ~/dev_ws
 $ catkin_make
 ```
