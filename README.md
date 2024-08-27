@@ -7,6 +7,6 @@ This repository presents the ROS simulation and details of the HMPC for path pla
 In order to use this package, the following components are required:
 
 - Ubuntu 20.04
-- ROS Noetic
+- ROS Noetic/ C++
 - Gazebo 11
-
+- Casadi ([https://web.casadi.org/](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP))
