@@ -14,13 +14,14 @@ In order to use this package, the following components are required:
 Following these instructions to install the package:
 
 ```shell
-# Step 1: Clone this repo into your workspace
-cd ~/catkin_ws/src
-git clone --recursive https://github.com/aralab-unr/Custom-controller-for-the-cube-drone.git
+# Step 1: Create and build a catkin workspace:
+mkdir -p ~/dev_ws/src
+$ cd ~/dev_ws/
+$ catkin_make
 
-# Step 2: Build the workspace using catkin_make
-cd ~/catkin_ws
-catkin_make
+# Step 2: Clone this repo into your workspace
+cd ~/dev_ws
+git clone --recursive https://github.com/aralab-unr/Custom-controller-for-the-cube-drone.git
 
 # Step 3: Source the environment variables
 source devel/setup.bash
