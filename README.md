@@ -10,3 +10,16 @@ In order to use this package, the following components are required:
 - ROS Noetic/ C++
 - Gazebo 11
 - Casadi ([https://web.casadi.org/](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP))
+
+```shell
+# Step 1: Clone this repo into your workspace
+cd ~/catkin_ws/src
+git clone --recursive https://github.com/aralab-unr/Custom-controller-for-the-cube-drone.git
+
+# Step 2: Build the workspace using catkin_make
+cd ~/catkin_ws
+catkin_make
+
+# Step 3: Source the environment variables
+source devel/setup.bash
+```
