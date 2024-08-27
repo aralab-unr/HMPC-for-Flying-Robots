@@ -15,7 +15,7 @@ Following these instructions to install the package:
 
 ```shell
 # Step 1: Create and build a catkin workspace:
-mkdir -p ~/dev_ws/src
+$ mkdir -p ~/dev_ws/src
 $ cd ~/dev_ws/
 $ catkin_make
 $ echo "source /dev_ws/devel/setup.bash" >> ~/.bashrc
