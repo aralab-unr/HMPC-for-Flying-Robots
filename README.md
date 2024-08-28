@@ -31,11 +31,11 @@ $ catkin_make
 ```
 The warehouse used in this package is from [AWS RoboMaker Small Warehouse World](https://github.com/aws-robotics/aws-robomaker-small-warehouse-world). Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
 <p align="center">
-  <img src="/images/warehouse.png" alt="Warehouse Environment" width="500"/>
+  <img src="/images/warehouse.png" alt="Warehouse Environment" width="700"/>
   <br/>
   <em>Figure 1: The static warehouse environment</em>
 </p>
 
 In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r] = [4,9,1.5] $(m)  along the $x$, $y$, and $z$-axis respectively. Therefore, we choose four obstacles inside the working spaces that are listed as follows:
 
-So the nonlinear function constraints for PMPC problem are determined by:
+So the nonlinear function constraints for the PMPC problem are determined by:
