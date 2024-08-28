@@ -31,7 +31,7 @@ $ catkin_make
 ```
 The warehouse used in this package is from [AWS RoboMaker Small Warehouse World](https://github.com/aws-robotics/aws-robomaker-small-warehouse-world). Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
 <p align="center">
-  <img src="/images/warehouse.png" alt="Warehouse Environment"/>
+  <img src="/images/warehouse.png" alt="Warehouse Environment" width="500"/>
   <br/>
   <em>Figure 1: The static warehouse environment</em>
 </p>
