@@ -30,6 +30,8 @@ $ cd ~/dev_ws
 $ catkin_make
 ```
 The warehouse used in this package is from [AWS RoboMaker Small Warehouse World](https://github.com/aws-robotics/aws-robomaker-small-warehouse-world). Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
+![warehouse](https://github.com/user-attachments/assets/1ab0dee6-d721-4270-a438-9679940e63a4)
+
 
 In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r] = [4,9,1.5] $(m)  along the $x$, $y$, and $z$-axis respectively. Therefore, we choose four obstacles inside the working spaces that are listed as follows:
 
