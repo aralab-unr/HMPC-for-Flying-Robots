@@ -45,8 +45,7 @@ In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r
 | Obstacle 4 | Rectangle box | [4.2,0.6,1.3] | [3.9,0.8,2.6] |
 
 So the nonlinear function constraints for the PMPC problem that considers the inflated obstacles are determined by:
-
-opti.subject_to(7.2 <= ob1);
-opti.subject_to(7.2 <= ob2);
-opti.subject_to(7.3 <= ob3);
-opti.subject_to(8.8 <= ob4);
+$r_1(\boldsymbol{x}_{\tau|t}) > 7.2 \\
+    r_2(\boldsymbol{x}_{\tau|t}) > 7.2 \\
+    r_3(\boldsymbol{x}_{\tau|t}) > 7.3 \\
+    r_4(\boldsymbol{x}_{\tau|t}) > 8.8 $
