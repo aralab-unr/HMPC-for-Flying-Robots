@@ -47,17 +47,15 @@ In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r
 So the nonlinear function constraints for the PMPC problem that considers the inflated obstacles are determined by:
 
 <p align="center">
-  <img src="/images/warehouse.png" alt="Warehouse Environment" width="700"/>
+  <img src="/images/function.png" alt="Warehouse Environment" width="700"/>
   <br/>
-  <em>Figure 1: The static warehouse environment</em>
 </p>
 
 where the nonlinear function of each rectangle box is:
 
 <p align="center">
-  <img src="/images/warehouse.png" alt="Warehouse Environment" width="700"/>
+  <img src="/images/constraints.png" alt="Warehouse Environment" width="700"/>
   <br/>
-  <em>Figure 1: The static warehouse environment</em>
 </p>
 
 
