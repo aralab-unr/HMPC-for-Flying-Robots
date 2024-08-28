@@ -61,5 +61,18 @@ where the nonlinear function of each rectangle box is:
 with $x,y,z$ representing the position of the flying robots.
 
 ## Flying test for the Quadrotor UAVs
+Following this step to run the flying test for the Quadrotor UAVs:
+
+```shell
+# Step 1: Run the rosserver and the Gazebo environment 
+$ roscore
+$ roslaunch optiuav obuav.launch
+
+# Step 2: Run the path-planning for the Quadrotor UAVs
+$ rosrun optiuav pathplanning
+
+# Step 3: Run the tracking controller for the Quadrotor UAVs
+$ rosrun optiuav mpccontroller
+```
 
 ## Flying test for the Cube-Drone
