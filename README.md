@@ -44,4 +44,6 @@ In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r
 | Obstacle 3 | Rectangle box | [1.58,4.40,0.925] | [2.1,1.9,1.8] |
 | Obstacle 4 | Rectangle box | [3.57,0.55,1.3] | [4,0.9,2.6] |
 
-So the nonlinear function constraints for the PMPC problem are determined by:
+So the nonlinear function constraints for the PMPC problem that considers the inflated obstacles are determined by:
+
+
