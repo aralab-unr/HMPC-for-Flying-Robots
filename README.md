@@ -57,5 +57,5 @@ where the nonlinear function of each rectangle box is:
   <img src="/images/constraints.png" alt="Warehouse Environment" width="750" />
   <br/>
 </p>
-
+with $x,y,z$ representing the position of the flying robots.
 
