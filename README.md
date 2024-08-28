@@ -29,4 +29,4 @@ $ git clone --recursive https://github.com/aralab-unr/Hierarchical-Model-Predict
 $ cd ~/dev_ws
 $ catkin_make
 ```
-The warehouse used in this package is from: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world. Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
+The warehouse used in this package is from: AWS RoboMaker Small Warehouse World [https://github.com/aws-robotics/aws-robomaker-small-warehouse-world]. Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
