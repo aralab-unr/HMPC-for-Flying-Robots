@@ -37,5 +37,8 @@ The warehouse used in this package is from [AWS RoboMaker Small Warehouse World]
 </p>
 
 In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r] = [4,9,1.5] $(m)  along the $x$, $y$, and $z$-axis respectively. Therefore, we choose four obstacles inside the working spaces that are listed as follows:
+| Obstacle | Shape | Position | Size |
+| --- | --- | --- | --- 
+| Obstacle 1 | Rectangle box | [-1.573,2.3,0.925] | [1.8,2.1,1.85] |
 
 So the nonlinear function constraints for the PMPC problem are determined by:
