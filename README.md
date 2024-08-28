@@ -54,6 +54,8 @@ $r_3(\boldsymbol{x}_{\tau|t})>7.3$
 
 $r_4(\boldsymbol{x}_{\tau|t})>8.8$
 
+where the nonlinear function of each rectangle box is:
 
+$r_1(\boldsymbol{x}_{\tau|t})=\abs{x_{\tau|t}}$
 
 
