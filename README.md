@@ -48,11 +48,11 @@ So the nonlinear function constraints for the PMPC problem that considers the in
 
 $r_1(\boldsymbol{x}_{\tau|t})>7.2$
 
-$r_1(\boldsymbol{x}_{\tau|t})>7.2$
+$r_2(\boldsymbol{x}_{\tau|t})>7.2$
 
-$r_1(\boldsymbol{x}_{\tau|t})>7.2$
+$r_3(\boldsymbol{x}_{\tau|t})>7.3$
 
-$r_1(\boldsymbol{x}_{\tau|t})>7.2$
+$r_4(\boldsymbol{x}_{\tau|t})>8.8$
 
 
 
