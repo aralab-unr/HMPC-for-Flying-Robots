@@ -77,10 +77,31 @@ $ rosrun optiuav mpccontroller
 
 The flying test video of the Quadrotor UAVs:
 
-https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
+https://github.com/user-attachments/assets/60fb4cd5-33b8-4a6e-9739-43b05a90231e
+
 
 
 ## Flying test for the Cube-Drone
+Following this step to run the flying test for the Quadrotor UAVs:
+
+```shell
+# Step 1: Run the rosserver and the Gazebo environment 
+$ roscore
+$ roslaunch mpccube obcube.launch
+
+# Step 2: Run the path-planning for the Quadrotor UAVs
+$ rosrun mpccube pathplanningcube
+
+# Step 3: Run the tracking controller for the Quadrotor UAVs
+$ rosrun mpccube mpccubecontroller
+```
+
+The flying test video of the Cube-Drone:
+
+https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
+
+
+
 
 
 
