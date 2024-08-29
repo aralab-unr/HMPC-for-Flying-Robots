@@ -78,7 +78,7 @@ $ rosrun optiuav mpccontroller
 ## Flying test for the Cube-Drone
 
 <p align="center">
-  <a href="https://github.com/aralab-unr/HMPC-for-Flying-Robots/blob/main/images/uav.mp4">
+  <a href="https://github.com/aralab-unr/HMPC-for-Flying-Robots/tree/main/images/uav.mp4">
     <img src="https://via.placeholder.com/750x400?text=UAV+Video" alt="UAV Video" width="750" />
   </a>
   <br/>
