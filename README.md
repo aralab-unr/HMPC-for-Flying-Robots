@@ -75,14 +75,14 @@ $ rosrun optiuav pathplanning
 $ rosrun optiuav mpccontroller
 ```
 
+The flying test video of the Quadrotor UAVs:
+
+https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
+
+
 ## Flying test for the Cube-Drone
 
-<p align="center">
-  <a href="https://github.com/aralab-unr/HMPC-for-Flying-Robots/tree/main/images/uav.mp4">
-    <img src="https://via.placeholder.com/750x400?text=UAV+Video" alt="UAV Video" width="750" />
-  </a>
-  <br/>
-</p>
+
 
 
 
