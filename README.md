@@ -82,7 +82,7 @@ The flying test video of the Quadrotor UAVs:
 https://github.com/user-attachments/assets/60fb4cd5-33b8-4a6e-9739-43b05a90231e
 
 
-Following this step to run the flying test for the Quadrotor UAVs:
+Following this step to run the flying test for the Cube-Drone:
 
 ```shell
 # Step 1: Run the rosserver and the Gazebo environment 
