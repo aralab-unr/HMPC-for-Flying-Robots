@@ -109,8 +109,7 @@ For the dynamic environment, the dynamic obstacles are set to move along the $x$
 | Obstacle 3 | Rectangle box | [3,-f(t,40)+2,1] | [2.1,1.9,1.8] |
 | Obstacle 4 | Rectangle box | [6.2,1.5f(t+8,60)-3,1] | [3.9,0.8,2.6] |
 
-where the moving function f(t,T) is defined by:
-
+where the moving function $f(t,T)$ with $t$ as the current time, is defined by
 <p align="center">
   <img src="/images/function.png" alt=Function" width="200"/>
 </p>
