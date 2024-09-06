@@ -116,6 +116,8 @@ where the moving function $f(t,T)$ with $t$ as the current time, is defined by
 
 <p align="center">
   <img src="/images/obmovement.gif" alt=obmovement" width="750"/>
+   <br/>
+  <em>Figure 2: The dynamic environment</em>
 </p>
 
 Following this step to run the flying test in a dynamic environment for the Quadrotor UAVs:
