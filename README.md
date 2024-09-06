@@ -122,8 +122,7 @@ $ rosrun dynauav dynauavcontroller
 
 The flying test video of the Quadrotor UAVs in a dynamic environment:
 
-https://github.com/user-attachments/assets/0a5b1e4e-934f-417c-9960-68814737f6b2
-
+https://github.com/user-attachments/assets/5dfcfef2-7977-497d-bea2-007a777a06f9
 
 
 Following this step to run the flying test in a dynamic environment for the Cube-Drone:
