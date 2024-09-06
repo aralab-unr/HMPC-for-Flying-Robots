@@ -104,10 +104,12 @@ https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
 For the dynamic environment, the dynamic obstacles are set to move along the $x$ axis at  $x=-5,x=-1,x=3,x=6$ with the velocity is 0.1 (m/s), the trajectory of the moving obstacle is defined by:
 | Obstacle | Shape | Position | Size |
 | --- | --- | --- | --- 
-| Obstacle 1 | Rectangle box | [-5,$-1.5f(t+1,60)+3$,1] | [1.8,2.1,1.8] |
-| Obstacle 2 | Rectangle box | [-1,$f(t,40)-2$,1] | [2,2.2,1.5] |
-| Obstacle 3 | Rectangle box | [3,$-f(t,40)+2$,1] | [2.1,1.9,1.8] |
-| Obstacle 4 | Rectangle box | [6.2,$1.5f(t+8,60)-3$,1] | [3.9,0.8,2.6] |
+| Obstacle 1 | Rectangle box | [-5,-1.5f(t+1,60)+3,1] | [1.8,2.1,1.8] |
+| Obstacle 2 | Rectangle box | [-1,f(t,40)-2,1] | [2,2.2,1.5] |
+| Obstacle 3 | Rectangle box | [3,-f(t,40)+2,1] | [2.1,1.9,1.8] |
+| Obstacle 4 | Rectangle box | [6.2,1.5f(t+8,60)-3,1] | [3.9,0.8,2.6] |
+where the moving function f(t,T) is defined by:![image](https://github.com/user-attachments/assets/8979a6bd-f102-4ba8-a34b-4c7ffc123534)
+
 
 Following this step to run the flying test in a dynamic environment for the Quadrotor UAVs:
 
