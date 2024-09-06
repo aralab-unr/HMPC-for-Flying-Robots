@@ -49,14 +49,14 @@ In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r
 So the nonlinear function constraints for the PMPC problem that considers the inflated obstacles are determined by:
 
 <p align="center">
-  <img src="/images/constraintgeq.png" alt="constraintgeq" width="115" />
+  <img src="/images/constraintgeq.png" alt="constraintgeq" width="105" />
   <br/>
 </p>
 
 where the nonlinear function of each rectangle box is:
 
 <p align="center">
-  <img src="/images/constraints.png" alt="Warehouse Environment" width="730" />
+  <img src="/images/constraints.png" alt="Warehouse Environment" width="700" />
   <br/>
 </p>
 
@@ -111,7 +111,7 @@ For the dynamic environment, the dynamic obstacles are set to move along the $x$
 
 where the moving function $f(t,T)$ with $t$ as the current time, is defined by
 <p align="center">
-  <img src="/images/function.png" alt=Function" width="275"/>
+  <img src="/images/function.png" alt=Function" width="250"/>
 </p>
 
 The dynamic environment:
