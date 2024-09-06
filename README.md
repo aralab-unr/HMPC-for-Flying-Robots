@@ -89,10 +89,10 @@ Following this step to run the flying test for the Cube-Drone:
 $ roscore
 $ roslaunch mpccube obcube.launch
 
-# Step 2: Run the path-planning for the Quadrotor UAVs
+# Step 2: Run the path-planning for the Cube-Drone
 $ rosrun mpccube pathplanningcube
 
-# Step 3: Run the tracking controller for the Quadrotor UAVs
+# Step 3: Run the tracking controller for the Cube-Drone
 $ rosrun mpccube mpccubecontroller
 ```
 
@@ -104,6 +104,43 @@ https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
 ## Flying test for the dynamic environment
 
 
+Following this step to run the flying test in a dynamic environment for the Quadrotor UAVs:
+
+```shell
+# Step 1: Run the rosserver and the Gazebo environment 
+$ roscore
+$ roslaunch dynauav dynauav.launch
+
+# Step 2: Run the dynamic environment
+$ rosrun dynauav obmovement
+
+# Step 3: Run the path-planning for the Quadrotor UAVs
+$ rosrun dynauav dynauavpath
+
+# Step 4: Run the tracking controller for the Quadrotor UAVs
+$ rosrun dynauav dynauavcontroller
+```
+
+The flying test video of the Cube-Drone:
+
+Following this step to run the flying test in a dynamic environment for the Cube-Drone:
+
+```shell
+# Step 1: Run the rosserver and the Gazebo environment 
+$ roscore
+$ roslaunch dynacube dynacube.launch
+
+# Step 2: Run the dynamic environment
+$ rosrun dynacube obmovementcube
+
+# Step 3: Run the path-planning for the Cube-Drone
+$ rosrun dynacube dynacubepath
+
+# Step 4: Run the tracking controller for the Cube-Drone
+$ rosrun dynacube dynacubecontroller
+```
+
+The flying test video of the Cube-Drone:
 
 
 
