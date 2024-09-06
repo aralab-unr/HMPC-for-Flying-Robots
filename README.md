@@ -36,6 +36,9 @@ The warehouse used in this package is from [AWS RoboMaker Small Warehouse World]
   <em>Figure 1: The static warehouse environment</em>
 </p>
 
+
+
+## Flying test for the static environment
 In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r] = [4,9,1.5] $(m)  along the $x$, $y$, and $z$-axis respectively. Therefore, we choose four obstacles inside the working spaces that are listed as follows:
 | Obstacle | Shape | Position | Size |
 | --- | --- | --- | --- 
@@ -60,7 +63,6 @@ where the nonlinear function of each rectangle box is:
 
 with $x,y,z$ representing the position of the flying robots.
 
-## Flying test for the Quadrotor UAVs
 Following this step to run the flying test for the Quadrotor UAVs:
 
 ```shell
@@ -80,8 +82,6 @@ The flying test video of the Quadrotor UAVs:
 https://github.com/user-attachments/assets/60fb4cd5-33b8-4a6e-9739-43b05a90231e
 
 
-
-## Flying test for the Cube-Drone
 Following this step to run the flying test for the Quadrotor UAVs:
 
 ```shell
