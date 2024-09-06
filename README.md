@@ -120,7 +120,11 @@ $ rosrun dynauav dynauavpath
 $ rosrun dynauav dynauavcontroller
 ```
 
-The flying test video of the Cube-Drone:
+The flying test video of the Quadrotor UAVs in a dynamic environment:
+
+https://github.com/user-attachments/assets/0a5b1e4e-934f-417c-9960-68814737f6b2
+
+
 
 Following this step to run the flying test in a dynamic environment for the Cube-Drone:
 
@@ -139,7 +143,9 @@ $ rosrun dynacube dynacubepath
 $ rosrun dynacube dynacubecontroller
 ```
 
-The flying test video of the Cube-Drone:
+The flying test video of Cube-Drone in a dynamic environment:
+
+https://github.com/user-attachments/assets/4b9066f2-40d5-45f1-8a66-fd990d941d96
 
 
 
