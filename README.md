@@ -111,8 +111,10 @@ For the dynamic environment, the dynamic obstacles are set to move along the $x$
 
 where the moving function $f(t,T)$ with $t$ as the current time, is defined by
 <p align="center">
-  <img src="/images/function.png" alt=Function" width="230"/>
+  <img src="/images/function.png" alt=Function" width="275"/>
 </p>
+
+The dynamic environment:
 
 <p align="center">
   <img src="/images/obmovement.gif" alt=obmovement" width="750"/>
