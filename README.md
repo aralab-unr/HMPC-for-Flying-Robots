@@ -111,7 +111,9 @@ For the dynamic environment, the dynamic obstacles are set to move along the $x$
 
 where the moving function f(t,T) is defined by:
 
-<img src="https://github.com/user-attachments/assets/8979a6bd-f102-4ba8-a34b-4c7ffc123534" width="205">
+<p align="center">
+  <img src="/images/warehouse.png" alt="Warehouse Environment" width="700"/>
+</p>
 
 Following this step to run the flying test in a dynamic environment for the Quadrotor UAVs:
 
