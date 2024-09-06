@@ -101,7 +101,7 @@ https://github.com/user-attachments/assets/35b68bef-57ac-4861-92e0-50cff4353623
 
 
 ## Flying test for the dynamic environment
-For the dynamic environment, the dynamic obstacles are set to move along the $x$ axis at  $x=-5,x=-1,x=3,x=6$.
+For the dynamic environment, the dynamic obstacles are set to move along the $x$ axis at  $x=-5,x=-1,x=3,x=6$ with the velocity is $0.1(m/s)$, the trajectory of the moving obstacle is defined by:
 | Obstacle | Shape | Position | Size |
 | --- | --- | --- | --- 
 | Obstacle 1 | Rectangle box | [-1.573,2.3,0.9] | [1.8,2.1,1.8] |
