@@ -29,6 +29,9 @@ $ git clone --recursive https://github.com/aralab-unr/Hierarchical-Model-Predict
 $ cd ~/dev_ws
 $ catkin_make
 ```
+
+## Flying test for the static environment
+
 The warehouse used in this package is from [AWS RoboMaker Small Warehouse World](https://github.com/aws-robotics/aws-robomaker-small-warehouse-world). Some parts of the warehouse have been removed for better visualization and to ensure the recursive feasibility of the path planning for the flying robots.
 <p align="center">
   <img src="/images/warehouse.png" alt="Warehouse Environment" width="700"/>
@@ -36,9 +39,6 @@ The warehouse used in this package is from [AWS RoboMaker Small Warehouse World]
   <em>Figure 1: The static warehouse environment</em>
 </p>
 
-
-
-## Flying test for the static environment
 In this package, the desired trajectory of the flying robots is  $[x_r, y_r, z_r] = [4,9,1.5] $(m)  along the $x$, $y$, and $z$-axis respectively. Therefore, we choose four obstacles inside the working spaces that are listed as follows:
 | Obstacle | Shape | Position | Size |
 | --- | --- | --- | --- 
