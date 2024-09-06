@@ -56,7 +56,7 @@ So the nonlinear function constraints for the PMPC problem that considers the in
 where the nonlinear function of each rectangle box is:
 
 <p align="center">
-  <img src="/images/constraints.png" alt="Warehouse Environment" width="750" />
+  <img src="/images/constraints.png" alt="Warehouse Environment" width="730" />
   <br/>
 </p>
 
@@ -111,7 +111,7 @@ For the dynamic environment, the dynamic obstacles are set to move along the $x$
 
 where the moving function $f(t,T)$ with $t$ as the current time, is defined by
 <p align="center">
-  <img src="/images/function.png" alt=Function" width="220"/>
+  <img src="/images/constraintgqe.png" alt=Function" width="230"/>
 </p>
 
 <p align="center">
