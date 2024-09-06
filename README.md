@@ -8,7 +8,7 @@ In order to use this package, the following components are required:
 
 - Ubuntu 20.04
 - ROS Noetic/ C++
-- Gazebo 11 (https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros)
+- Gazebo 11: gazebo_ros_pkgs (https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros)
 - Casadi (https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP)
 
 Following these instructions to install the package:
