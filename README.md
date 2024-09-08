@@ -56,7 +56,7 @@ So the nonlinear function constraints for the PMPC problem that considers the in
 where the nonlinear function of each rectangle box is:
 
 <p align="center">
-  <img src="/images/constraints.png" alt="Warehouse Environment" width="700" />
+  <img src="/images/constraints.png" alt="Warehouse Environment" width="680" />
   <br/>
 </p>
 
